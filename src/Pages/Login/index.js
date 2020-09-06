@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import  * as yup from 'yup'
 import {  ErrorMessage, Formik } from 'formik'
 
@@ -33,7 +34,7 @@ export default function Login(){
                         <a id="esqueceu" href="/recuperar">Esqueci a senha</a>
                         <button type="submit">Entrar</button>
                         <div id="cadastro">
-                            <p>ou</p> <a href="/cadastro">Cadastre-se</a>
+                            <p>ou</p> <Link id='link-cadastro' to="/cadastro">Cadastre-se</Link>
                         </div>
                     </form>
                 )}
