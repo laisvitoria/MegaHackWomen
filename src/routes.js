@@ -1,11 +1,11 @@
 import React from 'react'
 import { Switch, Route } from "react-router-dom";
 
-import TelaExemple from './Pages/Exemple'
+import TelaHome from './Pages/Home'
 
 const Routes = () => (
     <Switch>
-      <Route path="/" component={TelaExemple} />
+      <Route path="/" component={TelaHome} />
     </Switch>
 );
 
