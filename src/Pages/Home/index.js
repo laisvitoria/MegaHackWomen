@@ -2,17 +2,12 @@ import React from 'react'
 import icon from '../../Assets/nos.svg'
 
 import './styles.css'
+import Menu from '../../Components/Menu'
 
 export default function Home(){
     return(
         <div id="body">
-            <header>
-                <h1>Olá mundo</h1>
-                <nav> 
-                    <a href="">Encontre as Donnas!</a>
-                    <a href="">Entre</a>
-                </nav>
-            </header>
+            <Menu/>
             <session id="session">
                 <img src="https://blush.ly/DsxeCcoSV/p" alt=""/> 
                 <div>

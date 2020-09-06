@@ -1,27 +1,3 @@
-header {
-    width:100%;    
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center
-}
-
-nav{
-    width: 25%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 22px;
-}
-
-nav a:hover {
-    -webkit-text-stroke: thin;
-    color: #b4065a;
-}
-
 #body {
     width: 100%;
     height: 100%;
