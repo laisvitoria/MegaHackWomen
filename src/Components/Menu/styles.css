@@ -1,14 +1,14 @@
-nav{
+#nav-menu{
     width: 25%;
     display: flex;
     justify-content: space-evenly;
 }
 
-nav a {
+.option-menu {
     text-decoration: none;
     font-size: 22px;
 }
 
-nav a:hover {
+.option-menu:hover {
     -webkit-text-stroke: thin;
 }
