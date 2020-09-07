@@ -1,0 +1,13 @@
+#session-donna {
+    padding: 20px;
+}
+
+#session-donna h1 {
+    margin: 0px;
+}
+
+#container-map{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
