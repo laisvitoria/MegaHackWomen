@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import  * as yup from 'yup'
 import {  ErrorMessage, Formik } from 'formik'
+import { createBrowserHistory } from 'history'
 
 import './styles.css'
 import Menu from '../../Components/Menu'
@@ -12,13 +13,20 @@ export default function Login(){
         password: yup.string().required('Este campo é obrigatório!').min(6, 'Informe pelo menos 6 dígitos')
     })
     
+    let history = createBrowserHistory();
+
     return(
         <div>
-            <Menu txColor="#b4065a"/>
+            <Menu txColor="#b4065a" 
+                primaryroute="/cadastro" 
+                primarytitle="Cadastre-se"
+                secondroute="/login"
+                secondtitle="Entre"
+            />
             <div id="container">
                 <img src="https://blush.ly/Ur5ffJbern/p" alt="sayHi"/>
                 <h1>Olá! Seja bem vinda!</h1>
-                <Formik initialValues={{email: '', password:''}} onSubmit={() => alert('ok')} validationSchema={validations}>
+                <Formik initialValues={{email: '', password:''}} onSubmit={() => history.push('/initial')} validationSchema={validations}>
                 {({ handleBlur, handleChange, handleSubmit, values}) =>(
                     <form onSubmit={handleSubmit}>
                         <div className="input-container">

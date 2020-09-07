@@ -7,7 +7,12 @@ import Menu from '../../Components/Menu'
 export default function Home(){
     return(
         <div id="body">
-            <Menu txColor="#b4065a"/>
+            <Menu txColor="#b4065a" 
+                primaryroute="/cadastro" 
+                primarytitle="Cadastre-se"
+                secondroute="/login"
+                secondtitle="Entre"
+            />
             <session id="session">
                 <img src="https://blush.ly/DsxeCcoSV/p" alt=""/> 
                 <div>

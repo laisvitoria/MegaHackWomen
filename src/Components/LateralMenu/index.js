@@ -7,10 +7,10 @@ export default function LateralMenu(){
     return(
         <nav id="lateral-menu">
             <div className="option">
-                <Link className="option-text" to='/profile'>Meu perfil</Link>
+                <Link className="option-text" to='/business'>Meus negócios</Link>
             </div>
             <div className="option">
-                <Link className="option-text" to='/business'>Meus negócios</Link>
+                <Link className="option-text" to='/initial'>Destaques</Link>
             </div>
             <div className="option">
                 <Link className="option-text" to='/mentoring'>Mentorias</Link>
@@ -20,9 +20,6 @@ export default function LateralMenu(){
             </div>
             <div className="option">
                 <Link className="option-text" to='/donnas'>Donnas</Link>
-            </div>
-            <div className="option">
-                <Link className="option-text" to='/partner'>Parcerias</Link>
             </div>
             <div className="option">
                 <Link className="option-text" to='/'>Sair</Link>

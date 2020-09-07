@@ -4,14 +4,14 @@ import { Switch, Route } from "react-router-dom";
 import Home from './Pages/Home'
 import Login from './Pages/Login'
 import Initial from './Pages/Initial'
-import Exemple from './Pages/Exemple'
+import SearchDonnas from './Pages/SearchDonnas'
 
 const Routes = () => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/login" component={Login} />
       <Route path="/initial" component={Initial} />
-      <Route path="/localization" component={Exemple} />
+      <Route path="/donnas" component={SearchDonnas} />
     </Switch>
 );
 
