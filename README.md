@@ -1,4 +1,4 @@
-![](/src/Assets/logo-colorida-small.png)
+![image](./src/Assets/logo-colorida-small.png)
 
 # DONNA 
 
