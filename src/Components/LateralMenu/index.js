@@ -19,9 +19,6 @@ export default function LateralMenu(){
                 <Link className="option-text" to='/events'>Eventos</Link>
             </div>
             <div className="option">
-                <Link className="option-text" to='/donnas'>Donnas</Link>
-            </div>
-            <div className="option">
                 <Link className="option-text" to='/'>Sair</Link>
             </div>
         </nav>

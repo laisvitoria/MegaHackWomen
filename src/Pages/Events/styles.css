@@ -21,27 +21,6 @@
     border-radius: 10px;
 }
 
-#card-one {
-    width: 250px;
-    height: 150px;
-    margin: 20px;
-    padding: 5px;
-    box-shadow: 0.5px 0.2px gray;
-    background-image: url('https://images.sympla.com.br/5ec6f63375ada.png');
-    align-items: center;
-    border-radius: 10px;
-}
-#card-one:hover h2{
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 5px;
-    margin: -5px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
 .card:hover h2{
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
@@ -51,40 +30,27 @@
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
 }
 
-#card-one h2 {
-    width: 100%;
-    height: 100%;
-    display: none;
-    justify-content: center;
-}
-
-#card-two h2 {
+.card h2 {
     width: 100%;
     height: 100%;
     display: none;
 }
 
-#card-two {
-    width: 250px;
-    height: 150px;
-    margin: 20px;
-    padding: 5px;
-    box-shadow: 0.5px 0.2px gray;
-    background-image: url('https://www.sebrae.com.br/Sebrae/Portal%20Sebrae/Imagens%20SebraeNA/endeavor_fortbrasil.png');
-    align-items: center;
-    border-radius: 10px;
-}
-#card-two:hover h2{
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 5px;
-    margin: -5px;
-    border-radius: 10px;
+/*#menu-logged:hover #options-logged{
     display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    position: absolute;
+    background-color: rgba(186, 6, 90, 65%);
+    width: 150px;
     align-items: center;
-    text-align: center;
-    justify-content: center;
+    margin-left: -35px;
+    margin-top: 5px;
+    height: 75px;
 }
+
+#options-logged {
+    display: none;
+}*/

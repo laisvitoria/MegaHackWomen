@@ -7,7 +7,7 @@ import Frame from '../../Components/Frame'
 
 import './styles.css'
 
-export default function Initial(){
+export default function Events(){
     return(
         <div>
             <Menu txColor="#b4065a" color="#ffffff" 
@@ -25,11 +25,11 @@ export default function Initial(){
                         <div className="card">
                             <h2 className="text-card">Semana do Empreendedorismo</h2>
                         </div>
-                        <div id="card-one">
-                            <h2 className="text-card">Roda de bate-papo</h2>
+                        <div className="card">
+                            <h2 className="text-card">Semana do Empreendedorismo</h2>
                         </div>
-                        <div id="card-two">
-                            <h2 className="text-card">Artigo</h2>
+                        <div className="card">
+                            <h2 className="text-card">Semana do Empreendedorismo</h2>
                         </div>
                     </div>
                 </div>
